@@ -1,11 +1,32 @@
 git Bash - 
 
 git init - Create Local Repository
-git remote add orgin https://github.com/kadiriv/git-GitHub.git - To add Central Repository
-git pull origin master - To get all files from Master branch
+git remote add orgin "https://github.com/kadiriv/git-GitHub.git" - To add Central Repository
+git pull origin master - To get all files from central Master branch to Master
+git fetch              - To get all files from central Master branch and merge (git fetch + git                           merge)
 
-git status -                         Tells which files are added to index and are ready to commit
-git add <file name> -                Lets you add files to your index (staging)
-git add -A -                         Lets you add all files to your index (staging)
-git commit -m <commit message> -     Create snapshot of the file in local repository
-git commit -a -m <commit message> -  Commit all files
+git status                       -   Tells which files are added to index and are ready to commit
+git add <file name>              -   Lets you add files to your index (staging  area)
+git add -A -                     -    Lets you add all files to your index (staging area)
+git commit -m <commit message>   -   Create snapshot of the file in local repository
+git commit -a -m <commit message>-   Commit all files
+git log                          -   get history of commmits
+
+
+git branch <Branch Name>          -   Create new branch out of existing branch
+git checkout <Branch Name>        -   Switch to branch
+git merge <Source Branch>         -   To merge a branch to current branch
+git rebase <branch>               -   combine branch to master
+
+ls                                -   to list all files in a branch
+clear                             -   clear screen
+cat <file name>                   -   Show content of file
+
+
+To use SSH need to generate SSH publickey.
+1. Run command ssh-keygen. Copy content of generated key
+2. Go to User settings in GitHub, select SSH and GPG keys, Add Key.
+3. Run ssh -T git@github.com
+
+
+git push origin <branch name>
