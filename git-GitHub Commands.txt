@@ -1,4 +1,6 @@
-git Bash - 
+GitHub - Remote Central Repository
+git - Local Repository
+git Bash Emulator 
 
 git init - Create Local Repository
 git remote add orgin "https://github.com/kadiriv/git-GitHub.git" - To add Central Repository
@@ -7,19 +9,19 @@ git fetch              - To get all files from central Master branch and merge (
 
 git status                       -   Tells which files are added to index and are ready to commit
 git add <file name>              -   Lets you add files to your index (staging  area)
-git add -A -                     -    Lets you add all files to your index (staging area)
+git add -A -                     -   Lets you add all files to your index (staging area)
 git commit -m <commit message>   -   Create snapshot of the file in local repository
 git commit -a -m <commit message>-   Commit all files
-git log                          -   get history of commmits
-
+git log                          -   Get history of commmits
+git checkout <commit hash> <file name> - to Revert to prevoius versions
 
 git branch <Branch Name>          -   Create new branch out of existing branch
 git checkout <Branch Name>        -   Switch to branch
 git merge <Source Branch>         -   To merge a branch to current branch
 git rebase <branch>               -   combine branch to master
 
-ls                                -   to list all files in a branch
-clear                             -   clear screen
+ls                                -   To list all files in a branch
+clear                             -   Clear screen
 cat <file name>                   -   Show content of file
 
 
