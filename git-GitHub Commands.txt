@@ -4,7 +4,8 @@ git init - Create Local Repository
 git remote add orgin https://github.com/kadiriv/git-GitHub.git - To add Central Repository
 git pull origin master - To get all files from Master branch
 
-git status - Tells which files are added to index and are ready to commit
-git add <file name> - Lets you add files ti your index
-git commit -m <commit message> - Create snapshot of the file in local repository
-git commit -a -m "adding all files" - Commit all files
+git status -                         Tells which files are added to index and are ready to commit
+git add <file name> -                Lets you add files to your index (staging)
+git add -A -                         Lets you add all files to your index (staging)
+git commit -m <commit message> -     Create snapshot of the file in local repository
+git commit -a -m <commit message> -  Commit all files
